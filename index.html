@@ -1,0 +1,77 @@
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+    <div id='drum-machine' class='container'>
+      <div id='display'>Current drum sound</div>
+      <div class="row">
+        <div class="col">
+          <button type="button" name="buttonQ" class='drum-pad btn btn-block' id="Tom" onclick="playSound('Q')">
+            Q
+            <audio src="./sounds/Tom.wav" class="clip" id='Q' type="audio/wav"></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonW" class='drum-pad btn btn-block' id="Tom-2" onclick="playSound('W')">
+            W
+            <audio src="./sounds/Tom2.wav" class="clip" id='W' type="audio/wav"></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonE" class='drum-pad btn btn-block' id="Rim" onclick="playSound('E')">
+            E
+            <audio src="./sounds/Rim.wav" class="clip" id='E' type="audio/wav">
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" name="buttonA" class='drum-pad btn btn-block' id="ClHhat" onclick="playSound('A')">
+            A
+            <audio src="./sounds/ClHat.wav" class="clip" id='A' type="audio/wav"></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonS" class='drum-pad btn btn-block' id="OpHhat" onclick="playSound('S')">
+            S
+            <audio src="./sounds/OpHat.wav" class="clip" id='S' type="audio/wav">
+            </audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonD" class='drum-pad btn btn-block' id="Crash" onclick="playSound('D')">
+            D
+            <audio src="./sounds/Crash.wav" class="clip" id='D' type="audio/wav"></audio>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" name="buttonZ" class='drum-pad btn btn-block' id="Clap" onclick="playSound('Z')">
+            Z
+            <audio src="./sounds/clap.wav" class="clip" id='Z' type="audio/wav"></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonX" class='drum-pad btn btn-block' id="Kick" onclick="playSound('X')">
+            X
+            <audio src="./sounds/Kick.wav" class="clip" id='X' type="audio/wav"></audio>
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" name="buttonC" class='drum-pad btn btn-block' id="Snare" onclick="playSound('C')">
+            C
+            <audio src="./sounds/Snare.wav" class="clip" id='C' type="audio/wav"></audio>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>>

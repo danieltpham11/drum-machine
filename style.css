@@ -1,0 +1,13 @@
+.drum-pad {
+  background-color: orange;
+  padding: 50px;
+  height: 50px;
+  width#: 50px;
+  border: 1px outset black;
+}
+.drum-pad:active {
+  background-color: yellow;
+}
+#display {
+  background-color: #C0C0C0;
+}
